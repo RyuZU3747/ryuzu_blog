@@ -1,0 +1,22 @@
+# flyctl launch added from themes\hugo-profile\.gitignore
+themes\hugo-profile\config.yaml
+themes\hugo-profile\content
+themes\hugo-profile\static\images
+themes\hugo-profile\**\.vscode
+
+### Hugo ###
+# Generated files by hugo
+themes\hugo-profile\public
+themes\hugo-profile\exampleSite\public
+themes\hugo-profile\resources\_gen
+themes\hugo-profile\assets\jsconfig.json
+themes\hugo-profile\**\hugo_stats.json
+
+# Executable may be added to repository
+themes\hugo-profile\**\hugo.exe
+themes\hugo-profile\**\hugo.darwin
+themes\hugo-profile\**\hugo.linux
+
+# Temporary lock file while building
+themes\hugo-profile\**\.hugo_build.lock
+fly.toml

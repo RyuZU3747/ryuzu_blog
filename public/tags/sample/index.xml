@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample on RyuZU</title>
+    <link>http://localhost:1313/tags/sample/</link>
+    <description>Recent content in Sample on RyuZU</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>title</title>
+      <link>http://localhost:1313/blogs/%EB%AC%B4%EC%A0%9C/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/%EB%AC%B4%EC%A0%9C/</guid>
+      <description>&lt;p&gt;asdf&#xA;&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020250507223630.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
