@@ -1,8 +1,6 @@
 #!/bin/bash
 
-cd C:/git/ryuzu_blog/
-
-SYNC_POSTS=./obsidian/sync_posts.py
+SYNC_POSTS=./obsidian/sync_post.py
 HANDLE_IMGES=./obsidian/handle_images.py
 YOUTUBE_PATH=./obsidian/update_youtube_path.py
 

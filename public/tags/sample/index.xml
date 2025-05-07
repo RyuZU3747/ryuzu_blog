@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample on RyuZU</title>
+    <link>http://localhost:1313/tags/sample/</link>
+    <description>Recent content in Sample on RyuZU</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>500문제 달성!!</title>
+      <link>http://localhost:1313/blogs/legacy4/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/legacy4/</guid>
+      <description>&lt;p&gt;스니펫 활용해본다고 적당한 세그트리 문제 골랐는데, 아이디어 떠올리는게 좀 어려웠다  &lt;/p&gt;&#xA;&lt;p&gt;약 3년전에 시작해서 조금씩 풀던게 벌써 500문제&amp;hellip; 더 잘해지고 싶다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020250507232748.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
