@@ -1,5 +1,5 @@
-baseURL: "https://hugo-profile.netlify.app"
-languageCode: "en-us"
+baseURL: "https://ryuzu.me"
+languageCode: "ko-kr"
 title: "RyuZU"
 theme: hugo-profile
 
