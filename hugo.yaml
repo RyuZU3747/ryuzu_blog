@@ -40,7 +40,7 @@ markup:
 params:
   math: true
 
-  
+
 Menus:
   main:
     - identifier: blog
@@ -175,9 +175,8 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: |-
-      다양한 것에 관심이 많습니다. 현재는 소프트웨어 마에스트로 16기 연수생으로 지내고 있습니다.<br>
-
+    content: "다양한 것에 관심이 많습니다. 현재는 소프트웨어 마에스트로 16기 연수생으로 지내고 있습니다."
+    
     skills:
       enable: true
       title: "Software Skills"
