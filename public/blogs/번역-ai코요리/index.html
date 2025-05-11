@@ -460,7 +460,7 @@ $$Recency = e^{-\alpha(t_I-t_{M_i})}$$<p>
 </p>
 $$Relevance = \frac{E_i \cdot E_{M_i}}{||E_I||||E_{M_i}||}$$<p>여기서, $w_1$, $w_2$는 가중치, $t_I$는 입력의 시각, $t_{M_i}$는 $i$번째 기억의 시각, $E_I$는 입력의 임베팅 벡터, $E_{M_i}$는 $i$번째 기억의 임베딩 벡터, ⋅는 점곱(내적)입니다.</p>
 <p>또, 이번에는 $\alpha = 2.0 \times 10^{-4}$ (1시간에 약 반절로 감소)로 두고 있습니다.<br>
-<strong>임베딩 벡터</strong>란 문장을 $1,536$차원의 수직 벡터로 변환한 것으로, 문장의 특징을 표현하고 있습니다. 벡터 간 거리는 문장 사이의 관련 정도를 나타냅니다.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<strong>임베딩 벡터</strong>란 문장을 $1,536$차원의 수치 벡터로 변환한 것으로, 문장의 특징을 표현하고 있습니다. 벡터 간 거리는 문장 사이의 관련 정도를 나타냅니다.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
 <p>본 시스템에서는 OpenAI API의 <em>Embeddings</em>를 사용해 입력과 답변을 이어붙인 문장의 임베딩 벡터를 얻어 이것을 Memory Object의 임베딩 벡터로 사용하고 있습니다.</p>
 <p><a href="https://platform.openai.com/docs/guides/embeddings/what-are-embeddings">https://platform.openai.com/docs/guides/embeddings/what-are-embeddings</a></p>
 <p>위의 식은 아래를 표현하고 있습니다.</p>
