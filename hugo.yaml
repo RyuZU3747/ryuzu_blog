@@ -183,7 +183,7 @@ params:
       items:
         - "C/C++"
         - "Python"
-        - "Latex"
+        - "\\( \\rm \\LaTeX \\)"
         
     otherskills:
       enable: true

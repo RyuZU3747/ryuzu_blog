@@ -118,7 +118,18 @@
 <meta name="description" content=Text&#32;about&#32;my&#32;cool&#32;site>
 <link rel="stylesheet" href="/css/index.css" media="all">
 <link rel="stylesheet" href="/css/projects.css" media="all">
-
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
 
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
@@ -656,7 +667,7 @@ RyuZU
                     
                     <li>Python</li>
                     
-                    <li>Latex</li>
+                    <li>\( \rm \LaTeX \)</li>
                     
                 </ul>
                 
