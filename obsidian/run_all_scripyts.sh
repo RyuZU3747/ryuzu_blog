@@ -8,6 +8,6 @@ python $SYNC_POSTS
 python $HANDLE_IMGES
 python $YOUTUBE_PATH
 
-git add .
-git commit -am "update blog"
-git push
+# git add .
+# git commit -am "update blog"
+# git push

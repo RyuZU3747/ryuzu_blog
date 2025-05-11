@@ -32,7 +32,7 @@
   <meta property="og:site_name" content="RyuZU">
   <meta property="og:title" content="Blogs">
   <meta property="og:description" content="Text about my cool site">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="ko_kr">
   <meta property="og:type" content="website">
 
 
@@ -108,7 +108,7 @@
 
   
   
-
+  
   <title>
 Blogs | RyuZU
 
@@ -288,6 +288,32 @@ Blogs | RyuZU
                 <div class="card h-100">
                     
                     <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blogs/legacy5/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="VSCode 짱좋아">VSCode 짱좋아</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            
+                            <div class="preview-content">
+                            <p>스니펫 이거 정말 물건이지 않은가????  </p>
+<p>일단 자주쓸거같으면서 활용하기 편한 세그트리랑 유니온파인드 먼저 만들긴 했는데, 앞으론 문제 조금씩 풀면서 쓰는 것들을 넣으려고 생각하는중&hellip;  </p>
+<p>아마 다음은 CCW나 빠른제곱을 만들지 않을까?</p>
+<p>![[snippet.gif]]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Aug 6, 2022</span>
+                        <a href="/blogs/legacy5/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
                         <a href="/blogs/legacy3/" class="primary-font card-title">
                             <h5 class="card-title bg-transparent" title="OPIc을 봤다">OPIc을 봤다</h5>
                         </a>
@@ -339,93 +365,6 @@ Blogs | RyuZU
             </div>
         </div>
         
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
-                <div class="card h-100">
-                    
-                    <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/blogs/legacy1/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="첫 글">첫 글</h5>
-                        </a>
-                        <div class="card-text secondary-font">
-                            
-                            <div class="preview-content">
-                            <p>저키로 처음 블로그를 만들어보았다</p>
-<p>마크다운도 처음써보는데 신기하다</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define ll long long int
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define swap(a,b) {ll c; c=a;a=b;b=c;}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define MOD 1000000007
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define pii pair&lt;int,int&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define iii tuple&lt;int,int,int&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ll <span style="color:#a6e22e">multi</span>(ll i,ll k){
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> i;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> ((i<span style="color:#f92672">*</span>multi(i,k<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>))<span style="color:#f92672">%</span>MOD<span style="color:#f92672">*</span>multi(i,k<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>))<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">return</span> (multi(i,k<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">*</span>multi(i,k<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>))<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> n,k,a[<span style="color:#ae81ff">2001</span>];
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>k;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>) cin<span style="color:#f92672">&gt;&gt;</span>a[i];
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    ll setsu <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>k<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        setsu <span style="color:#f92672">=</span> (setsu<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    ll ncrtop <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, ncrbot <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>k;i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        ncrtop <span style="color:#f92672">=</span> (ncrtop<span style="color:#f92672">*</span>(n<span style="color:#f92672">-</span>i))<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        ncrbot <span style="color:#f92672">=</span> (ncrbot<span style="color:#f92672">*</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>))<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    ll div <span style="color:#f92672">=</span> (ncrtop<span style="color:#f92672">*</span>multi(ncrbot,MOD<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>))<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    cout<span style="color:#f92672">&lt;&lt;</span>(setsu<span style="color:#f92672">*</span>div)<span style="color:#f92672">%</span>MOD;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>신기하지 않은가?? 아닌가??</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Jul 21, 2022</span>
-                        <a href="/blogs/legacy1/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <div class="row justify-content-center">
             <div class="col-auto m-3">
                 
@@ -445,11 +384,14 @@ Blogs | RyuZU
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="page-item">
+        <a href="/blogs/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="page-item">
+        <a href="/blogs/page/4/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/blogs/page/4/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
             </div>
@@ -468,6 +410,51 @@ Blogs | RyuZU
         Recent Posts
     </div>
     <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="(번역) AI코요리 폭정!?의 뒷면">(번역) AI코요리 폭정!?의 뒷면</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        
+                        <div class="preview-content">
+                        <p>이 글은 Cover사의 <a href="https://note.cover-corp.com/n/n62d8a56970ee">AIこより爆誕！？の裏側</a> 를 번역한 글입니다. 현재 진행하고 있는 프로젝트에 적용할 수 있을 것 같아 개인용으로 작업하였습니다.</p>
+<hr>
+<p>콘코요~🧪
+커버 주식회사 CTO실 엔지니어인 A입니다.
+커버 주식회사에는 2023년 4월에 신졸(*신입)으로 입사해, <a href="https://note.cover-corp.com/n/n7f5c3a2c6adc?magazine_key=mb173ca3b0d76">제1회COVER Tech</a>를 작성하신 <strong>K씨</strong>의 밑에서 탤런트분들이 매일 YouTube 방송 등에서 사용하는 홀로라이브 어플리케이션 개발에 참여하고 있습니다.
+또, 최근 수 개월간 위와 병행하여 <strong>AI코요리 시스템</strong>의 개발을 담당하였습니다.</p>
+<p><a href="https://youtu.be/AISDzuxP6b0">https://youtu.be/AISDzuxP6b0</a></p>
+<p>이 기사에서는 개발한 시스템의 개요에 대해 소개합니다.</p>
+<h2 id="목차">목차</h2>
+<ol>
+<li><a href="#%EA%B0%9C%EB%B0%9C-%EA%B2%BD%EC%9C%84">개발 경위</a></li>
+<li><a href="#%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EC%9A%94">시스템 개요</a></li>
+<li><a href="#%ED%94%84%EB%A1%A0%ED%8A%B8-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98">프론트 어플리케이션</a></li>
+<li><a href="#%EC%84%9C%EB%B2%84-%EC%8B%9C%EC%8A%A4%ED%85%9C">서버 시스템</a>
+<ol>
+<li><a href="#%EB%8B%B5%EB%B3%80-%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%83%9D%EC%84%B1">답변 텍스트의 생성</a></li>
+<li><a href="#%EB%8B%B5%EB%B3%80-%EB%82%AD%EB%8F%85-%EC%9D%8C%EC%84%B1%EC%9D%98-%EC%83%9D%EC%84%B1">답변 낭독 음성의 생성</a></li>
+</ol>
+</li>
+<li><a href="#%EC%A0%95%EB%A6%AC">정리</a></li>
+</ol>
+<hr>
+<h2 id="개발-경위">개발 경위</h2>
+<p>AI코요리 시스템의 개발을 하게 된 경위에 대해서.
+먼저 사내에 생성AI의 가능성이나 관련기술의 검토를 하고 싶다는 필요가 있었습니다. 거기에, 코요리씨로부터 본인의 AI를 만들고 싶다는 요청을 받았기에 그것이 계기가 되어, 코요리씨의 전면적인 협력 아래 <strong>AI코요리 시스템</strong>의 개발이 시작되었습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">May 11, 2025</span>
+                    <a href="/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
         
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
@@ -520,35 +507,6 @@ Blogs | RyuZU
                 <div class="mt-auto card-footer">
                     <span class="float-start">May 27, 2023</span>
                     <a href="/blogs/legacy8/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/legacy7/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="2022년도 결산">2022년도 결산</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        
-                        <div class="preview-content">
-                        <h2 id="상반기">상반기</h2>
-<hr>
-<p>2022년도 벌써 다 지나갔다. 사실 2022년도의 절반은 군대로 날려버렸는데ㅋㅋ  </p>
-<p>내게 있어 가장 큰 변화는, CP를 본격적으로 시작한 것이라 할 수 있다.  </p>
-<p>입대 전 실버였던 백준 티어가 병장땐 플래티넘이 되어있었다&hellip; 다행히 구글 코드잼이 내가 말년일 때 시작해서 참가에 차질이 없었다.  </p>
-<p>부대에 코로나가 펑펑 터졌었는데 싸지방 봐주신 소대장님 감사해요  </p>
-<p>Qualiying round를 3솔로 통과하고 round 1C를 참가했다. 다른 round는 개인정비시간에 안하더라.</p>
-<p>아쉽게 3561등으로 통과하지 못했다. 근데 통과했어도 휴가 아니면 참가 못한다&hellip;  </p>
-<p>이후엔 SCPC랑 현대 모비스를 신청하고, 자가전역을 위해 남은 휴가(39일)을 전부 써서 사회로 나왔다. 5월 26일이었다.  </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">Dec 29, 2022</span>
-                    <a href="/blogs/legacy7/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
