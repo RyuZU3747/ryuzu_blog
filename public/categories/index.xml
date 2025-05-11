@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RyuZU</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://ryuzu.me/categories/</link>
     <description>Recent content in Categories on RyuZU</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryuzu.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

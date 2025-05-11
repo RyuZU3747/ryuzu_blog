@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image Gallery on RyuZU</title>
-    <link>http://localhost:1313/gallery/</link>
+    <link>https://ryuzu.me/gallery/</link>
     <description>Recent content in Image Gallery on RyuZU</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryuzu.me/gallery/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

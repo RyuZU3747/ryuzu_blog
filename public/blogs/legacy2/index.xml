@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SCPC 예선 on RyuZU</title>
-    <link>http://localhost:1313/blogs/legacy2/</link>
+    <link>https://ryuzu.me/blogs/legacy2/</link>
     <description>Recent content in SCPC 예선 on RyuZU</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/legacy2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryuzu.me/blogs/legacy2/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

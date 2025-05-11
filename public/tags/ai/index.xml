@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on RyuZU</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://ryuzu.me/tags/ai/</link>
     <description>Recent content in AI on RyuZU</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryuzu.me/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(번역) AI코요리 폭정!?의 뒷면</title>
-      <link>http://localhost:1313/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</link>
+      <link>https://ryuzu.me/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</guid>
+      <guid>https://ryuzu.me/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</guid>
       <description>&lt;p&gt;이 글은 Cover사의 &lt;a href=&#34;https://note.cover-corp.com/n/n62d8a56970ee&#34;&gt;AIこより爆誕！？の裏側&lt;/a&gt; 를 번역한 글입니다. 현재 진행하고 있는 프로젝트에 적용할 점이 있을 것 같아 개인용으로 작업하였습니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;콘코요~🧪&lt;br&gt;&#xA;커버 주식회사 CTO실 엔지니어인 A입니다.&lt;br&gt;&#xA;커버 주식회사에는 2023년 4월에 신졸(*신입)으로 입사해, &lt;a href=&#34;https://note.cover-corp.com/n/n7f5c3a2c6adc?magazine_key=mb173ca3b0d76&#34;&gt;제1회 COVER Tech&lt;/a&gt;를 작성하신 &lt;strong&gt;K씨&lt;/strong&gt;의 밑에서 탤런트분들이 매일 YouTube 방송 등에서 사용하는 홀로라이브 어플리케이션 개발에 참여하고 있습니다.&lt;br&gt;&#xA;또, 최근 수 개월간 위와 병행하여 &lt;strong&gt;AI코요리 시스템&lt;/strong&gt;의 개발을 담당하였습니다.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AISDzuxP6b0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;이 기사에서는 개발한 시스템의 개요에 대해 소개합니다.&lt;/p&gt;</description>
     </item>
   </channel>

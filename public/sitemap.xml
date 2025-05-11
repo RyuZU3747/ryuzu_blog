@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</loc>
+    <loc>https://ryuzu.me/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://ryuzu.me/tags/ai/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>https://ryuzu.me/blogs/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ryuzu.me/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ryuzu.me/tags/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
+    <loc>https://ryuzu.me/tags/tech/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%EB%B2%88%EC%97%AD/</loc>
+    <loc>https://ryuzu.me/tags/%EB%B2%88%EC%97%AD/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy9/</loc>
+    <loc>https://ryuzu.me/blogs/legacy9/</loc>
     <lastmod>2023-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy8/</loc>
+    <loc>https://ryuzu.me/blogs/legacy8/</loc>
     <lastmod>2023-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy7/</loc>
+    <loc>https://ryuzu.me/blogs/legacy7/</loc>
     <lastmod>2022-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy6/</loc>
+    <loc>https://ryuzu.me/blogs/legacy6/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy4/</loc>
+    <loc>https://ryuzu.me/blogs/legacy4/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
+    <loc>https://ryuzu.me/tags/example/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://ryuzu.me/tags/markdown/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sample/</loc>
+    <loc>https://ryuzu.me/tags/sample/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
+    <loc>https://ryuzu.me/tags/syntax/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy5/</loc>
+    <loc>https://ryuzu.me/blogs/legacy5/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy3/</loc>
+    <loc>https://ryuzu.me/blogs/legacy3/</loc>
     <lastmod>2022-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy2/</loc>
+    <loc>https://ryuzu.me/blogs/legacy2/</loc>
     <lastmod>2022-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/legacy1/</loc>
+    <loc>https://ryuzu.me/blogs/legacy1/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>https://ryuzu.me/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ryuzu.me/categories/</loc>
   </url>
 </urlset>
