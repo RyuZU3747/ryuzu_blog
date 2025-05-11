@@ -190,7 +190,7 @@ https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
 
 라는 알고리즘으로 되어 있습니다.
 
-## 답변 낭독 음성의 생성
+### 답변 낭독 음성의 생성
 
 낭독 AI 모델의 학습 및 이용은 CoeFont의 서비스를 이용하고 있습니다.
 
