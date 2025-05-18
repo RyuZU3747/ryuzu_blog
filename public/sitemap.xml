@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ryuzu.me/blogs/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/tags/cp/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/tags/ps/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/blogs/scsc-%ED%9B%84%EA%B8%B0/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/tags/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryuzu.me/tags/%ED%9B%84%EA%B8%B0/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ryuzu.me/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ryuzu.me/tags/ai/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ryuzu.me/blogs/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ryuzu.me/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ryuzu.me/tags/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ryuzu.me/tags/tech/</loc>

@@ -4,8 +4,6 @@ date: 2025-05-11
 draft: false
 github_link: https://github.com/ryuzu3747
 author: RyuZU
-params:
-  math: true
 tags:
   - 번역
   - Tech

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CP on RyuZU</title>
+    <link>https://ryuzu.me/tags/cp/</link>
+    <description>Recent content in CP on RyuZU</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ryuzu.me/tags/cp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCSC Computer Programming Contest 후기</title>
+      <link>https://ryuzu.me/blogs/scsc-%ED%9B%84%EA%B8%B0/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://ryuzu.me/blogs/scsc-%ED%9B%84%EA%B8%B0/</guid>
+      <description>&lt;h3 id=&#34;대회-전&#34;&gt;대회 전&lt;/h3&gt;&#xA;&lt;p&gt;2023년도 ICPC 서울 리저널 이후로 PS를 막 그렇게 하진 않았는데(24년도가 좀 많이 바빴던 것도 있음&amp;hellip;), 소프트웨어 마에스트로에 합류하게 된 이후 많은 고수분들을 뵙게 되었고, 의욕이 조금 생겨 천천히 코드포스나 앳코더를 다시 잡게 되었다. 사실 업솔빙도 잘 안한다 그냥 레이팅이 바뀌는 절망과 쾌감의 도파민에 절여진건지&amp;hellip; 이러니 실력이 오를리가 있나&lt;br&gt;&#xA;SCSC는 소마 16기 동기 중에 운영진분이 계셔서, 홍보에 낚여 들어가 신청하게 되었다. 주변사람들에게 홍보도 할게요 했는데&#xA;&lt;img src=&#34;https://ryuzu.me/images/Pasted%20image%2020250517220804.png&#34; alt=&#34;Image Description&#34;&gt;&lt;br&gt;&#xA;안타깝게도 교내대회랑 일정이 겹치는 바람에&amp;hellip; 학교에선 나 혼자 출전했던 것 같다. 교내대회는 출전도 해보고 수상도 해보고 출제도 해보고 씹고 뜯고 맛보고 다 했기도 하고, shake!도 몇 번 나가보기도 하고 그래서 그대로 SCSC에 나가기로 했다. 살면서 타 대학 갈 일이 얼마나 있겠는가? 그것도 서울대를&lt;br&gt;&#xA;대회 전에 단체 메일을 받았는데 숨은 참조가 아니라서 출전자들을 볼 수 있다던가 작은 이슈들이 있던 것 같은데, 크게 신경은 안썼고 많은 고수들이 나오시는구나 하고 넘긴 것 같다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
