@@ -32,6 +32,20 @@ for filename in os.listdir(hugo_posts_dir):
             image_source = os.path.join(obsidian_attachments_dir, image)
             if os.path.exists(image_source):
                 shutil.copy(image_source, hugo_static_images_dir)
+                
+        images = re.findall(r"\[\[([^]]*\.jpg)\]\]", content)
+        
+        for image in images:
+            # Prepare the Markdown-compatible link with %20 replacing spaces
+            markdown_image = (
+                f"[Image Description](/images/{image.replace(' ', '%20')})"
+            )
+            content = content.replace(f"[[{image}]]", markdown_image)
+
+            # Step 4: Copy the image to the Hugo static/images directory if it exists
+            image_source = os.path.join(obsidian_attachments_dir, image)
+            if os.path.exists(image_source):
+                shutil.copy(image_source, hugo_static_images_dir)
 
         # Step 5: Write the updated content back to the markdown file
         with open(filepath, "w", encoding='utf-8') as file:

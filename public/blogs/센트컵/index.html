@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="https://ryuzu.me/blogs/%EC%84%BC%ED%8A%B8%EC%BB%B5/">
+  <meta property="og:site_name" content="RyuZU">
+  <meta property="og:title" content="센트로이드컵 후기">
+  <meta property="og:description" content="센트로이드 컵에 참여했습니다. 사실 최근 소마플젝이나 하반기 공채 등등으로 좀 바빠서 참여할까말까 고민했는데 어떻게 하다보니 작년 ICPC팀으로 나가게 되었습니다. 올해 ICPC는 일정상 참여하지 못하기 때문에 저에게는 이게 마지막 팀대회입니다. 그냥 라스트댄스 한다 치고 참여했습니다.
+shake!나 교내 동아리 등등에서 이전부터 센트컵 열린다 열린다 얘기는 들었는데, 언제 열리지 하던게 지금 열렸습니다. 아주대가 센트로이드 연합? 아중국인? 어쨌든 연합에 참여하게 된 게 인하대 참여에 따라들어간 것으로 알고있는데, 정말 감사할 따름입니다…
+대회 전 전날(금요일)에는 소마 센터 갔다가 집에 늦게들어와서, 폰질하다가 새벽 3시에 잤습니다. 9시에 일어나서 대충 준비하고 출발했는데, 저희 팀원 모두 6시간 정도밖에 안잤다고 해서 좀 불안한 느낌이 들었습니다.
+12시 2분 전쯤에 도착해서, 얼마 있지 않아 등록을 시작했습니다. 중앙대는 무슨 건물이 이렇게 크지?? 정도의 생각을 했던 것 같습니다. 핑크빈 인형같은거도 UCPC 후기글 보면서 좀 부러웠는데, 보급형 핑크빈 받아서 정말 좋았습니다. 키링은 학교별, 스티커는 등록 땐 아무거나 주셨던 것 같습니다 중앙대만 없네요">
+  <meta property="og:locale" content="ko_kr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2025-09-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-27T00:00:00+00:00">
+    <meta property="article:tag" content="후기">
+    <meta property="article:tag" content="PS">
+    <meta property="article:tag" content="CP">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="센트로이드컵 후기">
+  <meta name="twitter:description" content="센트로이드 컵에 참여했습니다. 사실 최근 소마플젝이나 하반기 공채 등등으로 좀 바빠서 참여할까말까 고민했는데 어떻게 하다보니 작년 ICPC팀으로 나가게 되었습니다. 올해 ICPC는 일정상 참여하지 못하기 때문에 저에게는 이게 마지막 팀대회입니다. 그냥 라스트댄스 한다 치고 참여했습니다.
+shake!나 교내 동아리 등등에서 이전부터 센트컵 열린다 열린다 얘기는 들었는데, 언제 열리지 하던게 지금 열렸습니다. 아주대가 센트로이드 연합? 아중국인? 어쨌든 연합에 참여하게 된 게 인하대 참여에 따라들어간 것으로 알고있는데, 정말 감사할 따름입니다…
+대회 전 전날(금요일)에는 소마 센터 갔다가 집에 늦게들어와서, 폰질하다가 새벽 3시에 잤습니다. 9시에 일어나서 대충 준비하고 출발했는데, 저희 팀원 모두 6시간 정도밖에 안잤다고 해서 좀 불안한 느낌이 들었습니다.
+12시 2분 전쯤에 도착해서, 얼마 있지 않아 등록을 시작했습니다. 중앙대는 무슨 건물이 이렇게 크지?? 정도의 생각을 했던 것 같습니다. 핑크빈 인형같은거도 UCPC 후기글 보면서 좀 부러웠는데, 보급형 핑크빈 받아서 정말 좋았습니다. 키링은 학교별, 스티커는 등록 땐 아무거나 주셨던 것 같습니다 중앙대만 없네요">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3M063MZQ88"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3M063MZQ88');
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+  <title>
+센트로이드컵 후기 | RyuZU
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                RyuZU
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Achievements
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">센트로이드컵 후기</h1>
+            <div class="text-center">
+              
+                RyuZU
+                <small>|</small>
+              
+              Sep 27, 2025
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>센트로이드 컵에 참여했습니다.
+사실 최근 <a href="https://kanata.live">소마플젝</a>이나 하반기 공채 등등으로 좀 바빠서 참여할까말까 고민했는데 어떻게 하다보니 작년 ICPC팀으로 나가게 되었습니다. 올해 ICPC는 일정상 참여하지 못하기 때문에 저에게는 이게 마지막 팀대회입니다. 그냥 라스트댄스 한다 치고 참여했습니다.<br>
+shake!나 교내 동아리 등등에서 이전부터 센트컵 열린다 열린다 얘기는 들었는데, 언제 열리지 하던게 지금 열렸습니다. 아주대가 센트로이드 연합? 아중국인? 어쨌든 연합에 참여하게 된 게 인하대 참여에 따라들어간 것으로 알고있는데, 정말 감사할 따름입니다&hellip;</p>
+<h3 id="대회-전">대회 전</h3>
+<p>전날(금요일)에는 소마 센터 갔다가 집에 늦게들어와서, 폰질하다가 새벽 3시에 잤습니다. 9시에 일어나서 대충 준비하고 출발했는데, 저희 팀원 모두 6시간 정도밖에 안잤다고 해서 좀 불안한 느낌이 들었습니다.<br>
+<img src="/images/20250927_120458.jpg" alt="Image Description"><br>
+12시 2분 전쯤에 도착해서, 얼마 있지 않아 등록을 시작했습니다. 중앙대는 무슨 건물이 이렇게 크지?? 정도의 생각을 했던 것 같습니다. 핑크빈 인형같은거도 UCPC 후기글 보면서 좀 부러웠는데, 보급형 핑크빈 받아서 정말 좋았습니다. 키링은 학교별, 스티커는 등록 땐 아무거나 주셨던 것 같습니다 중앙대만 없네요</p>
+<p><img src="/images/20250927_120507.jpg" alt="Image Description"><br>
+포스터는 진짜 잘나온 것 같습니다 우리학교 마스코트빼고 다 귀여운듯</p>
+<p><img src="/images/20250927_170224.jpg" alt="Image Description"><br>
+대회나가면서 처음으로 토템을 들고왔습니다. 같은 테이블에 두고 싶었는데, 대회중에 문제지들고 휘적휘적거리면서 떨어뜨릴까봐 비어있는 앞 테이블에 세워놓았습니다.</p>
+<p>뭐 대충 고등학교 동창도 오랜만에 보고 학교 후배들도 오랜만에 보고 했습니다. 노트북 세팅하면서 ps에 익숙하지 않은 맥으로 세팅하고, vscode 쓰는 사람이 저 혼자라서 vscode랑 clion을 왔다갔다하는 환경을 만들고&hellip; 왜 vscode 안쓰는건지 진짜</p>
+<p>생각보다 제가 있는 강의실에 같은 학교 팀이 많아서 마음을 좀 편하게 먹은 것 같습니다.</p>
+<h3 id="대회-중">대회 중</h3>
+<h4 id="a-2-4-6-8"><a href="https://www.acmicpc.net/contest/problem/1556/1">A. 2, 4, 6, 8</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:01 AC</span><br>
+시작과 동시에 C++ 템플릿 작성하면서 문제를 봤습니다. 엥 $06$하면 되나? 를 한 10초 정도 생각했다가, $24$면 되겠다 해서 $24$를 써야 하는지 $42$를 써야하는지 살짝 헷갈려서 0분솔을 못했습니다.(16초 오버) Text로 제출창에 바로 냈기에 템플릿 작성 안했으면 0분솔이었을지도 모릅니다. 해결 직후 3등이 되었습니다.</li>
+</ul>
+<h4 id="d-소수제합"><a href="https://www.acmicpc.net/contest/problem/1556/4">D. 소수제합</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:06 -1</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:10 -2</span><br>
+A를 푼 후 앞 4문제를 대충 슥 보다가, 이 문제보고 엥 쉬운거 아니냐?? 라면서 $1$을 소수로 착각하는 실수를 해버립니다. 아니이거맞지않나???만 여러 번 생각했는데, 그냥 옆에서 다른 문제 푸는걸 돕기로 했습니다.</li>
+</ul>
+<h4 id="m-제곱수-순열"><a href="https://www.acmicpc.net/contest/problem/1556/13">M. !제곱수 순열</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:21 -1</span><br>
+옆에서 팀원이 냈는데 틀렸습니다. 풀이를 들어보니 맞는 것 같은데, 대충 디버깅해보라 던지고 저는 D와 동시에 C를 봤습니다.</li>
+</ul>
+<h4 id="b-초콜릿-우유가-좋아"><a href="https://www.acmicpc.net/contest/problem/1556/2">B. 초콜릿 우유가 좋아</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:23 AC</span><br>
+앞 4문제 슥 보다가 쉬운거 같아서, 스코어보드에도 많이 풀려서 다른 팀원에게 던졌습니다. M 디버깅하는 동안 바로 짤 수 있게 식 정리하라고 했던 것 같습니다. 함 슥 확인하고 바로 짜게 했습니다. 20등 초반에서 해결 후 18등이 되었고, 스타트를 좀 말아먹었다고 생각했습니다.</li>
+</ul>
+<h4 id="c-polyominonal-puzzle"><a href="https://www.acmicpc.net/contest/problem/1556/3">C. Polyominonal Puzzle</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:26 AC</span><br>
+D 보기 전에, 그 다음으로 많이 풀려서 먼저 짰습니다. 그냥 모든 <code>Y</code>에 대해서 상하좌우를 살피면 됩니다. 나름 빠르게 짠 것 같습니다. C를 풀고 나서 16등이 되었습니다.</li>
+</ul>
+<h4 id="d-소수제합-1"><a href="https://www.acmicpc.net/contest/problem/1556/4">D. 소수제합</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:31 -3</span><br>
+1은 소수가 아님을 깨닫고, B를 푼 팀원에게 바로 D를 던져주었습니다. 저도 C를 풀고 바로 같이 작업에 들어갔습니다. 일반적인 경우에 두 가지 소수$(2, 3)$만 가지고 구성할 수 있을 것 같다고 생각했고, 팀원에게 이를 일반화하는 식을 찾아달라고 했습니다. $2, 3, 4, 6$의 경우엔 $2$와 $3$만으로 구성할 수 없어서, 걍 -1로 처리하고 제출 ㄱ? 해서 제출했습니다. ㅋㅋ</li>
+</ul>
+<h4 id="m-제곱수-순열-1"><a href="https://www.acmicpc.net/contest/problem/1556/13">M. !제곱수 순열</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:34 AC</span><br>
+디버깅을 다 해왔습니다. 어디가 틀렸었는지는 안 들어서 모릅니다. 이걸 푼 직후 11등이 되었습니다.</li>
+</ul>
+<h4 id="d-소수제합-2"><a href="https://www.acmicpc.net/contest/problem/1556/4">D. 소수제합</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:48 -4</span><br>
+M에서 AC를 받은 직후, 예제에 있는 $2$를 제외한 $3, 4, 6$의 경우를 찾기 위해 제가 나이브를 짰습니다. 나이브 짜는 것도 컴퓨터 자원을 써야 하니까 좀 부담이 되었습니다. 초반이라 다른 문제의 풀이가 마구마구 나왔기 때문에&hellip;
+아무래도 제가 가장 빠르게 짜는 편이라, 3/4/6중 for문을 돌려서 세 경우에 대한 소수 배열을 찾았습니다.</li>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:50 AC</span><br>
+각 경우마다 나이브를 돌리고 종이에 적어놨습니다.<br>
+<img src="/images/Pasted%20image%2020250928001353.png" alt="Image Description"><br>
+$N=3$의 경우에 $2$ $5$ $29$인데, 필기를 잘못 보고 $3$으로 적어버려서 1틀을 했습니다&hellip; 직후에 바로 고쳐서 AC를 받았고, 퍼솔과 함께 한 자리 등수로 들어갔습니다. 간단한 부분을 실수해서 당시엔 너무 미안했습니다.</li>
+</ul>
+<h4 id="h-t-타일링"><a href="https://www.acmicpc.net/contest/problem/1556/8">H. T 타일링</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:56 AC</span><br>
+제가 D에서 나이브를 짜고 있는 동안, 옆에서 H 풀이가 나와 구현하여 AC를 받았습니다. 이 문제 던져줄 때 대충 읽고 이럴 것 같다 하면서 줬는데, 좀 혼란을 준 것 같아서 미안했습니다. AC를 받고 한 단계 올라 8등이 되었습니다.</li>
+</ul>
+<h4 id="n-nypc-code-battle-leaf-hack"><a href="https://www.acmicpc.net/contest/problem/1556/14">N. NYPC &lt;CODE BATTLE/&gt;: Leaf Hack</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">0:57 AC</span><br>
+옆에서 이 문제 게임이론인것 같다. 난 못풀 것 같다라는 얘기를 자꾸 해서, T 타일링 구현하러 들어간 사이에 잠깐 읽어보았습니다. 포화 이진트리이기 때문에 항상 자식이 두 개 있는 곳을 없앨 것(자식이 하나 있는 곳을 없애면 손해이기 때문에)이고, 리프노드의 개수는 2의 거듭제곱 꼴이기 때문에 항상 후공이 먼저 플래그를 획득하게 됩니다. 그래서 항상 Yeti를 출력하면 됩니다. 아니이걸왜몰라하면서 AC. 3등까지 올라갔습니다. D에서 AC를 받아놓은 게 컸던 것 같습니다.</li>
+</ul>
+<h4 id="j-double-permutation"><a href="https://www.acmicpc.net/contest/problem/1556/10">J. Double Permutation</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">1:29 AC</span><br>
+1, 2등 팀이 푼 E를 다른 팀원에게 던져둔 후, J를 저와 다른 팀원 둘이서 보기 시작했습니다. 어캐 잘 슥슥 써보다가 조건을 만족하는 격자 양 옆에 4개씩 잘 붙이면 확장할 수 있다는 것을 발견했고, $\bmod 4$에서 $0, 1$인 $N$에서 가능함을 보였습니다. $2$와 $3$의 경우에서는 명쾌하게 보일 순 없었지만 제 감이 불가능하다고 느끼고 있었고, 적당히 작은 경우에서 불가능함을 보이고 팀원을 설득한 뒤 걍 -1로 처리하고 제출 ㄱ? 해서 AC 받았습니다. 8솔이지만 패널티로 밀려서 4등이 되었습니다.</li>
+</ul>
+<h4 id="e-룩의-이동"><a href="https://www.acmicpc.net/contest/problem/1556/5">E. 룩의 이동</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">1:33 -1</span><br>
+J 푸는 동안 팀원이 E풀이를 가져왔습니다. 그냥 BFS하면 될것같다고 해서 제출했습니다. 당시엔 팀원이 구현에서 실수한 것 같아서 제가 다시 짜기로 하고, I를 보게 했습니다.</li>
+<li><span style="font-size: 1.2em; font-weight: bold;">1:50 -2</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">2:28 -3</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">2:29 -4</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">2:29 -5</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">2:41 -9</span><br>
+예 그렇게 됐습니다&hellip; 제가 E에서 몸비트는 동안, 두 팀원은 각자 I와 L을 보고 있었고 둘 다 어느정도 풀이가 나온 상황이어서, 진전이 있는 사람이 컴퓨터를 가져가게 했습니다.</li>
+</ul>
+<h4 id="i-프랙탈과-점"><a href="https://www.acmicpc.net/contest/problem/1556/9">I. 프랙탈과 점</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:08 -1</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:20 -2</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:22 -3</span><br>
+무슨 일이 일어났는진 모르겠지만, 저만큼 끔찍한 시간을 보내고 있지 않았을까요?</li>
+</ul>
+<h4 id="l-트리-오델로"><a href="https://www.acmicpc.net/contest/problem/1556/12">L. 트리 오델로</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:24 -1</span><br>
+사실 얘는 L을 짜기 전에 G에 DP전이를 다 짰었는데, 예제가 안나와서 L로 선회했습니다. L은 뭐 대충 냅색하고 역추적해야 한다까진 들었습니다.<br>
+각 거리 지점을 뒤집으면 된다, 어떤 거리를 뒤집을 지 찾았는데 이걸로 해를 어떻게 구성할지 모르겠다고 해서 약간 도와줬습니다. 사실 코드를 이해 못해서 글로만 깔짝댔습니다. 대충 거리마다 그 이하 점들은 다 뒤집히니 연속이 아닌 부분을 잘 끊으면 될 것 같다는 소리를 했습니다.</li>
+</ul>
+<h4 id="i-프랙탈과-점-1"><a href="https://www.acmicpc.net/contest/problem/1556/9">I. 프랙탈과 점</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:26 -4</span></li>
+</ul>
+<h4 id="l-트리-오델로-1"><a href="https://www.acmicpc.net/contest/problem/1556/12">L. 트리 오델로</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:29 -2</span></li>
+</ul>
+<h4 id="e-룩의-이동-1"><a href="https://www.acmicpc.net/contest/problem/1556/5">E. 룩의 이동</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:33 -10</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:37 -11</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:38 -12</span></li>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:42 -13</span></li>
+</ul>
+<h4 id="l-트리-오델로-2"><a href="https://www.acmicpc.net/contest/problem/1556/12">L. 트리 오델로</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:43 -3</span></li>
+</ul>
+<h4 id="i-프랙탈과-점-2"><a href="https://www.acmicpc.net/contest/problem/1556/9">I. 프랙탈과 점</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:47 -5</span><br>
+이 얼마나 무시무시하고 끔찍한 시간이었는지&hellip; 프리즈 이후로 한 문제도 풀지 못했고, 그대로 멸망할 위기였습니다. E는 분명 그냥 BFS는 시간 초과가 될 텐데, 각 칸의 visit 배열을 가로 세로로 나눠도 안되고 어떻게 할 지 감이 안잡혔고, L은 코드를 이해 못해서 도와줄 수 없었고, I는 디버깅을 도와줬는데 예제 마지막 입력 <code>2694740786726250 -5464652956071034 1 1 2694740786726253.000 -5464652956071034.483</code>을 바로 받은 후 출력하면 <code>2694740786726250 -5464652956071034 1 1 2694740786726253.000 -5464652956071034.000</code>으로 소숫점이 없어지는 문제를 겪고 있었습니다. 제가 파이썬을 할 줄 알아서 파이썬으로도 디버깅을 했는데 소숫점이 사라집니다. 왜 이런 문제가 발생하는거지???? 정말 무시무시한 일이 아닐 수 없습니다&hellip;
+결국 팀원이 string으로 받아서 예외처리를 하겠다고 했습니다.</li>
+</ul>
+<h4 id="l-트리-오델로-3"><a href="https://www.acmicpc.net/contest/problem/1556/12">L. 트리 오델로</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:50 AC</span><br>
+해 구성 부분은 문제가 없었는데, for문 중간에 인덱스가 음수가 될 수 있었다고 합니다.</li>
+</ul>
+<h4 id="i-프랙탈과-점-3"><a href="https://www.acmicpc.net/contest/problem/1556/9">I. 프랙탈과 점</a></h4>
+<ul>
+<li><span style="font-size: 1.2em; font-weight: bold;">3:55 AC</span><br>
+string으로 받은 뒤, 예외처리 부분을 좀 손봤다고 들었습니다.</li>
+</ul>
+<p>이후 E에서 고통받다가 미제출 문제들을 다 제출하고 끝났습니다.<br>
+종료 10분 전? 제출 두 개가 전부 AC?? 주변 팀들은 아마 저희가 계속 소리지르는 것을 보고 드디어 미쳐버렸나 싶었을 겁니다&hellip; E를 못 푼게 아쉽지만 프리즈중 2문제 AC로 도파민샤워중이어서 크게 신경쓰진 않았습니다.</p>
+<h3 id="대회-후">대회 후</h3>
+<p><img src="/images/20250927_170947.jpg" alt="Image Description"><br>
+종료 후 프리즈된 스코어보드를 봤는데, 4, 5, 6, 7등이 전부 아주대입니다. 명명백백한 중간의 왕&hellip; 주변 팀들의 프리즈 이후 솔브를 듣진 못했지만, 소리지르는팀이 저희밖에 없었어서 나름의 기대를 갖고 있었습니다.</p>
+<p><img src="/images/20250927_183105.jpg" alt="Image Description"><br>
+저희 팀의 토템(왼쪽)입니다. 노가리까고 있었는데 kiwiyou님이 오셔서 가지인형을 세워두셨습니다. 푹신하고 좋더라구요
+<img src="/images/20250927_184404.jpg" alt="Image Description"><br>
+pani가 와서 달팽이 인형을 세워두고 갔습니다.
+<img src="/images/20250927_184423.jpg" alt="Image Description"><br>
+팀원이 키링으로 달고다니던 인형을 두었습니다.
+<img src="/images/20250927_184440.jpg" alt="Image Description"><br>
+갑?자기?? 스이세이 인형이랑 베베 인형이 추가되었습니다. 베베 인형은 대회 중 저희 팀 토템 앞에 서있었던 것 같은데, 어느 순간 사라져있더라구요&hellip;
+<img src="/images/20250927_185153.jpg" alt="Image Description"><br>
+이후에 카나데 쿠션이랑 이로하 미니 피규어가 추가되었습니다. 다른 분인줄 알았는데 스이세이랑 같은 분이셨습니다. 이걸 어떻게 3개나 들고다니시는거지???
+<img src="/images/20250927_185542.jpg" alt="Image Description"><br>
+사진 찍는 김에 핑크빈이랑 슬라임도 같이 넣었습니다.</p>
+<p>후원사 세션이 없어져서 단체로 카훗을 했습니다. 초등학생 때 강당에서 OX퀴즈하던 그런 느낌이 나서 재밌었습니다.<br>
+스코어보드 공개 당시 사진은 없는데&hellip; 대부분? 모든? 팀이 무언가를 하나씩 들고 갔던 것 같습니다.
+살짝 스포일러 당했던 점은, 모든 문제에 제출하는 특별상이 1st, 2nd로 두 개였고, 순위상 받은 팀은 특별상에서 제외였는데&hellip; 모든 문제를 제출한 팀이 저희 포함 단 두 팀이었으나 2nd 특별상이 모든 문제를 제출하지 않은 팀에게 갔기 때문에, 우린 그래도 무언갈 받겠구나 라는 생각을 했습니다.<br>
+사실 종료 10분 전에 2솔을 추가하고 모든 문제에 제출해서, 레전드꿀잼판을 볼 수 있겠지?? 하면서 좀 기대했는데, 저희보다 123등 쟁탈전이 더 재밌었습니다. 순위가 한 6번은 바뀌었던 것 같습니다.</p>
+<p><img src="/images/20250927_191553.jpg" alt="Image Description"><br>
+상품으로 G304를 받았습니다. 아쉽게도 상장은 3등까지밖에 없다고 합니다. 상금이 아니라 상품을 받아서 그럴 것 같다는 생각은 했습니다. 수상사진과 단체사진 찍을 때 토템도 같이 들고갔습니다.</p>
+<p>사실 토템같은걸 들고가는건 이번이 처음인데, ICPC 월파에서도 그렇고 강한 팀들은 토템을 세워놓더라구요&hellip; 어차피 마지막 팀대회니 가져와봤습니다.</p>
+<p>남는 굿즈를 적당히 챙기고 폼보드까지 챙겼습니다. 이후에 한강에 무슨 축제가 열린다고 사람 많을거라고 해서, 뒷풀이는 수원으로 내려와서 하기로 했습니다. 중앙대를 나오면서 폭죽 터지는소리가 막 들리고 그랬는데, 조금만 늦었으면 서울 못 나올 뻔 했습니다.</p>
+<p><img src="/images/Screenshot_20250927_222506_CoverScreen.jpg" alt="Image Description"><br>
+뒷풀이로 삼겹살을 먹었습니다. 먹던 도중 휴대폰 액정이 나갔습니다. 플립이라 쪼끄만 전면 화면으로 유튜브 카톡 디스코드를 할 수 있습니다. 충분하지 않나요?? 내일 바로 서비스센터 가기로 했습니다&hellip;</p>
+<p><img src="/images/Pasted%20image%2020250928013702.png" alt="Image Description"><br>
+3등과의 차이가 너무나도 컸기에, E를 못풀었니 어쩌니 패널티가 어쩌구 하는 얘기들은 의미가 없어졌습니다. 저희 팀이 신들려서 I와 L을 한번에 풀고, E를 다 푼 뒤에 풀이가 나왔던 G를 풀었다고 해도 4등이기에&hellip; 팀 모두 만족하고 있습니다. 스코어보드 공개 중에 pani한테 들었는데 123등이 전부 코포 오렌지++라고&hellip; 대충 어디선가 들어본 핸들이 많았기에 그렇겠구나 했습니다.<br>
+그래도 유종의 미를 거둔 것 같아서 좋습니다. 마지막 학기인 데다가 아무것도 안해도 졸업 확정인 상태라서, 팀대회는 더 없을 것 같습니다. 사실 지금 팀으로 한 50만원은 쌀먹했습니다.<br>
+게다가 학교 후배들도 나름 높은 성적들을 거두었습니다. 대부분 1학년이나 2학년인 친구들이 많은데, 작년도 그렇고 올해도 동아리가 잘 굴러가는 것 같아 기분이 좋습니다.<br>
+재밌는 대회 열어주신 39명의 운영진 분들 정말 감사드리고, 아주대를 연합에 끼워주신 모든 분들께 감사드립니다. 내년에도 열렸으면 좋겠습니다.</p>
+<p><img src="/images/20250927_231000.jpg" alt="Image Description"><br>
+폼보드 수집가가 되었습니다.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#대회-전">대회 전</a></li>
+        <li><a href="#대회-중">대회 중</a></li>
+        <li><a href="#대회-후">대회 후</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://ryuzu.me/tags/%ED%9B%84%EA%B8%B0"
+                target="_blank"
+              >후기</a></li>
+              
+              <li class="list-inline-item"><a href="https://ryuzu.me/tags/ps"
+                target="_blank"
+              >PS</a></li>
+              
+              <li class="list-inline-item"><a href="https://ryuzu.me/tags/cp"
+                target="_blank"
+              >CP</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fryuzu.me%2fblogs%2f%25EC%2584%25BC%25ED%258A%25B8%25EC%25BB%25B5%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=%ec%84%bc%ed%8a%b8%eb%a1%9c%ec%9d%b4%eb%93%9c%ec%bb%b5%20%ed%9b%84%ea%b8%b0&url=https%3a%2f%2fryuzu.me%2fblogs%2f%25EC%2584%25BC%25ED%258A%25B8%25EC%25BB%25B5%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%ec%84%bc%ed%8a%b8%eb%a1%9c%ec%9d%b4%eb%93%9c%ec%bb%b5%20%ed%9b%84%ea%b8%b0: https%3a%2f%2fryuzu.me%2fblogs%2f%25EC%2584%25BC%25ED%258A%25B8%25EC%25BB%25B5%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=%ec%84%bc%ed%8a%b8%eb%a1%9c%ec%9d%b4%eb%93%9c%ec%bb%b5%20%ed%9b%84%ea%b8%b0&amp;body=Check%20out%20this%20site https%3a%2f%2fryuzu.me%2fblogs%2f%25EC%2584%25BC%25ED%258A%25B8%25EC%25BB%25B5%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/%EC%84%BC%ED%8A%B8%EC%BB%B5/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="센트로이드컵 후기">센트로이드컵 후기</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        
+                        <div class="preview-content">
+                        <p>센트로이드 컵에 참여했습니다.
+사실 최근 <a href="https://kanata.live">소마플젝</a>이나 하반기 공채 등등으로 좀 바빠서 참여할까말까 고민했는데 어떻게 하다보니 작년 ICPC팀으로 나가게 되었습니다. 올해 ICPC는 일정상 참여하지 못하기 때문에 저에게는 이게 마지막 팀대회입니다. 그냥 라스트댄스 한다 치고 참여했습니다.<br>
+shake!나 교내 동아리 등등에서 이전부터 센트컵 열린다 열린다 얘기는 들었는데, 언제 열리지 하던게 지금 열렸습니다. 아주대가 센트로이드 연합? 아중국인? 어쨌든 연합에 참여하게 된 게 인하대 참여에 따라들어간 것으로 알고있는데, 정말 감사할 따름입니다&hellip;</p>
+<h3 id="대회-전">대회 전</h3>
+<p>전날(금요일)에는 소마 센터 갔다가 집에 늦게들어와서, 폰질하다가 새벽 3시에 잤습니다. 9시에 일어나서 대충 준비하고 출발했는데, 저희 팀원 모두 6시간 정도밖에 안잤다고 해서 좀 불안한 느낌이 들었습니다.<br>
+<img src="/images/20250927_120458.jpg" alt="Image Description" style="width:300px; height:auto;"><br>
+12시 2분 전쯤에 도착해서, 얼마 있지 않아 등록을 시작했습니다. 중앙대는 무슨 건물이 이렇게 크지?? 정도의 생각을 했던 것 같습니다. 핑크빈 인형같은거도 UCPC 후기글 보면서 좀 부러웠는데, 보급형 핑크빈 받아서 정말 좋았습니다. 키링은 학교별, 스티커는 등록 땐 아무거나 주셨던 것 같습니다 중앙대만 없네요</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Sep 27, 2025</span>
+                    <a href="/blogs/%EC%84%BC%ED%8A%B8%EC%BB%B5/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/scsc-%ED%9B%84%EA%B8%B0/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="SCSC Computer Programming Contest 후기">SCSC Computer Programming …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        
+                        <div class="preview-content">
+                        <h3 id="대회-전">대회 전</h3>
+<p>2023년도 ICPC 서울 리저널 이후로 PS를 막 그렇게 하진 않았는데(24년도가 좀 많이 바빴던 것도 있음&hellip;), 소프트웨어 마에스트로에 합류하게 된 이후 많은 고수분들을 뵙게 되었고, 의욕이 조금 생겨 천천히 코드포스나 앳코더를 다시 잡게 되었다. 사실 업솔빙도 잘 안한다 그냥 레이팅이 바뀌는 절망과 쾌감의 도파민에 절여진건지&hellip; 이러니 실력이 오를리가 있나<br>
+SCSC는 소마 16기 동기 중에 운영진분이 계셔서, 홍보에 낚여 들어가 신청하게 되었다. 주변사람들에게 홍보도 할게요 했는데
+<img src="/images/Pasted%20image%2020250517220804.png" alt="Image Description" style="width:300px; height:auto;"><br>
+안타깝게도 교내대회랑 일정이 겹치는 바람에&hellip; 학교에선 나 혼자 출전했던 것 같다. 교내대회는 출전도 해보고 수상도 해보고 출제도 해보고 씹고 뜯고 맛보고 다 했기도 하고, shake!도 몇 번 나가보기도 하고 그래서 그대로 SCSC에 나가기로 했다. 살면서 타 대학 갈 일이 얼마나 있겠는가? 그것도 서울대를<br>
+대회 전에 단체 메일을 받았는데 숨은 참조가 아니라서 출전자들을 볼 수 있다던가 작은 이슈들이 있던 것 같은데, 크게 신경은 안썼고 많은 고수들이 나오시는구나 하고 넘긴 것 같다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">May 17, 2025</span>
+                    <a href="/blogs/scsc-%ED%9B%84%EA%B8%B0/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="(번역) AI코요리 폭정!?의 뒷면">(번역) AI코요리 폭정!?의 뒷면</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        
+                        <div class="preview-content">
+                        <p>이 글은 Cover사의 <a href="https://note.cover-corp.com/n/n62d8a56970ee">AIこより爆誕！？の裏側</a> 를 번역한 글입니다. 현재 진행하고 있는 프로젝트에 적용할 점이 있을 것 같아 개인용으로 작업하였습니다.</p>
+<hr>
+<p>콘코요~🧪<br>
+커버 주식회사 CTO실 엔지니어인 A입니다.<br>
+커버 주식회사에는 2023년 4월에 신졸(*신입)으로 입사해, <a href="https://note.cover-corp.com/n/n7f5c3a2c6adc?magazine_key=mb173ca3b0d76">제1회 COVER Tech</a>를 작성하신 <strong>K씨</strong>의 밑에서 탤런트분들이 매일 YouTube 방송 등에서 사용하는 홀로라이브 어플리케이션 개발에 참여하고 있습니다.<br>
+또, 최근 수 개월간 위와 병행하여 <strong>AI코요리 시스템</strong>의 개발을 담당하였습니다.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AISDzuxP6b0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>이 기사에서는 개발한 시스템의 개요에 대해 소개합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">May 11, 2025</span>
+                    <a href="/blogs/%EB%B2%88%EC%97%AD-ai%EC%BD%94%EC%9A%94%EB%A6%AC/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/ryuzu3747" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/yukyeom-kim-ryuzu" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://twitter.com/kawaii_ryuzu" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+    <a href="https://instagram.com/yyyyu_kyeom" aria-label="instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fd5" />
+                <stop offset=".328" stop-color="#ff543f" />
+                <stop offset=".348" stop-color="#fc5245" />
+                <stop offset=".504" stop-color="#e64771" />
+                <stop offset=".643" stop-color="#d53e91" />
+                <stop offset=".761" stop-color="#cc39a4" />
+                <stop offset=".841" stop-color="#c837ab" />
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813"
+                gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#4168c9" />
+                <stop offset=".999" stop-color="#4168c9" stop-opacity="0" />
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+            <path fill="#fff"
+                d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z" />
+            <circle cx="31.5" cy="16.5" r="1.5" fill="#fff" />
+            <path fill="#fff"
+                d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z" />
+        </svg>
+    </a>
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+            &copy; 2025  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
