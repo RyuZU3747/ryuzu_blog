@@ -39,8 +39,6 @@ markup:
           - - \(
             - \)
         enable: true
-params:
-  math: true
 
 
 Menus:
@@ -76,6 +74,7 @@ Menus:
 params:
   title: "RyuZU"
   description: Text about my cool site
+  math: true
   # staticPath: ""  # The path to serve the static files from
   # favicon: "/fav.png"
 
@@ -152,7 +151,7 @@ params:
     title: "RyuZU"
     subtitle: "의 블로그입니다."
     content: "하고 싶은 것을 찾아가는 중인 사람입니다."
-    image: /images/pic08.jpg
+    image: /images/pic08.avif
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -176,7 +175,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: "/images/me.avif"
     content: "다양한 것에 관심이 많습니다. 현재는 소프트웨어 마에스트로 16기 연수생으로 지내고 있습니다."
     
     skills:
@@ -272,7 +271,7 @@ params:
           name: "Ajou University"
           url: "https://ajou.ac.kr/"
         date: "2020 - Current"
-        GPA: "3.92 out of 4.5, No Retake & Withdrawal"
+        GPA: "3.89 out of 4.5, No Retake & Withdrawal"
         content: |-
           22년부터 24년까지 Ajou Computer Graphics Lab에서 학부생 인턴을 했습니다.
             - Exercise Categorization and Analysis from Monocular Video
@@ -281,7 +280,7 @@ params:
           Extracurricular Activities
             - Director, Problem Setter of Ajou Programming Contest (APC) - 2024
             - Director, Problem Setter of Ajou Programming Contest (APC) Extra - 2024
-            - President of Algorithmic problem solving clug in Ajou University (ANSI) - 2024
+            - President of Algorithmic problem solving club in Ajou University (ANSI) - 2024
         featuredLink:
           enable: false
           name: "My academic record"
@@ -305,6 +304,8 @@ params:
         # image: /images/achievement.jpg
       - title: 2024 ICPC Asia Seoul Reginal First Round in Ajou 3rd Place
         content: 교내 우수상
+      - title: 2025 제24회 TOPCIT 정기평가
+        content: 우수상
       - title: Academic Scholarship (₩8.9M, 5times)
         content: Dasan Scholarship
         # url: https://example.com
